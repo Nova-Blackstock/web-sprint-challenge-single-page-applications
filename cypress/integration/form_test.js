@@ -1,6 +1,6 @@
 describe('Complete Sprint tests', () =>{
     it('Add text to boxes', () =>{
-        cy.visit('http://localhost:3000/pizza')
+        cy.visit('http://localhost:3001/pizza')
         cy.url().should('include', 'localhost')
         cy.get('input[name="username"]')
             .type('Nova')
